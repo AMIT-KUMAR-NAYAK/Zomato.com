@@ -1,0 +1,21 @@
+.footer-1
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 100px;
+    line-height: 40px;
+}
+body
+{
+    height: 3000px;
+}
+footer
+{
+    color: rgb(141, 141, 141);
+    font-size: 20px;
+    font-weight: bolder;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+}

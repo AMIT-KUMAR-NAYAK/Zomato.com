@@ -1,0 +1,62 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header
+{
+background-image: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.2)),url("zomato-bg.jpg");
+background-position: center;
+background-size: cover;
+height: 800px;
+}
+
+.nav-header
+{
+    display: grid;
+    grid-template-columns: 100px 200px 200px 100px 200px;
+    justify-content: center;
+}
+
+.head-text
+{
+    font-family: Arial;
+    font-size: 20px;
+    color: rgba(255,255,255,0.9);
+}
+
+.body-header
+{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 200px 150px 100px;
+    justify-content: center;
+    text-align: center;
+}
+.zomato
+{
+    width: 80%;
+    height: 70%;
+}
+.quote
+{
+    font-size: 40px;
+    color:rgba(255,255,255,0.7);
+}
+.location
+{
+    width: 20%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.search
+{
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}

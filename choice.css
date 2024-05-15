@@ -1,0 +1,38 @@
+.choice
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.choice-sub
+{
+    display: flex;
+    grid-gap: 30px;
+    
+}
+.sub
+{
+    border-radius: 20px;
+    border: solid grey 1px;
+}
+
+.c
+{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.a
+{
+    font-size: 30px;
+    color:rgb(54, 54, 54);
+    font-family: Arial;
+    padding-left: 10px;
+}
+.d
+{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial;
+}
